@@ -12,7 +12,7 @@ Forge new Claude Code skills from external content.
 From this repo (local dev):
 
 ```bash
-claude plugin marketplace add /path/to/skill-maker
+claude plugin marketplace add /path/to/skill-smith
 claude plugin install skill-smith
 ```
 

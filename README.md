@@ -1,4 +1,4 @@
-# skill-maker
+# skill-smith
 
 A Claude Code plugin marketplace for **forging new skills from the wild** — point it at a URL, a YouTube video, or a transcript, and it turns the content into a reviewable `SKILL.md` you can drop into any Claude Code workflow. Also ships a small library of opinionated behavioral skills built using its own pipeline.
 
@@ -6,7 +6,7 @@ A Claude Code plugin marketplace for **forging new skills from the wild** — po
 
 ```bash
 # Add this repo as a Claude Code marketplace
-claude plugin marketplace add /path/to/skill-maker
+claude plugin marketplace add /path/to/skill-smith
 
 # Install the plugin (currently one: skill-smith)
 claude plugin install skill-smith
@@ -14,7 +14,7 @@ claude plugin install skill-smith
 
 Restart your Claude Code session so the skills register.
 
-> For remote install, swap the local path for the git URL once published: `claude plugin marketplace add https://github.com/davydany/skill-maker`.
+> For remote install, swap the local path for the git URL once published: `claude plugin marketplace add https://github.com/davydany/skill-smith`.
 
 ## Skills
 
@@ -27,7 +27,7 @@ Restart your Claude Code session so the skills register.
 ## Layout
 
 ```
-skill-maker/
+skill-smith/
 ├─ .claude-plugin/
 │  └─ marketplace.json         # marketplace manifest
 └─ plugins/

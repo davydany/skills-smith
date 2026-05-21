@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "skill-maker",
+  "name": "skill-smith",
   "description": "Tooling for generating new Claude Code skills from external content (links, YouTube videos, and more).",
   "owner": {
     "name": "davydany",

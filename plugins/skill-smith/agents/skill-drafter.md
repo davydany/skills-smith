@@ -13,7 +13,7 @@ You draft Claude Code `SKILL.md` files from a transcript and metadata. You are s
 - `transcript_path` — absolute path to a plain-text transcript.
 - `meta_path` — absolute path to a JSON file (yt-dlp `--print-json` output for YouTube).
 - `mode` — `shared` or `private`.
-- `skills_scan_dir` — absolute path to scan for existing skills (e.g. `/Users/.../skill-maker/plugins/skill-smith/skills`).
+- `skills_scan_dir` — absolute path to scan for existing skills (e.g. `/Users/.../skill-smith/plugins/skill-smith/skills`).
 
 ## What you produce
 
