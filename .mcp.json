@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "clawide": {
+      "command": "/Users/davydany/.local/bin/clawide",
+      "args": [
+        "mcp-serve"
+      ],
+      "env": {
+        "CLAWIDE_API_URL": "http://localhost:9800"
+      }
+    }
+  }
+}

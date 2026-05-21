@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-maker",
+  "description": "Tooling for generating new Claude Code skills from external content (links, YouTube videos, and more).",
+  "owner": {
+    "name": "davydany",
+    "email": "davydany@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "skill-smith",
+      "description": "Forge new Claude Code skills from URLs. Includes a URL dispatcher and a YouTube-to-skill pipeline that downloads audio, transcribes locally with whisper-cpp, and drafts a reviewable SKILL.md.",
+      "author": {
+        "name": "davydany"
+      },
+      "category": "productivity",
+      "source": "./plugins/skill-smith"
+    }
+  ]
+}
